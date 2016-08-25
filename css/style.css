@@ -1,0 +1,58 @@
+body {
+    background: rgb(0,79,42);
+}
+
+
+DIV#playground{
+    width: 1900px;
+}
+div.setup{
+    height: 30px;
+    color: rgb(255,255,255);
+    font-size: 180%;
+}
+div.boxes{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+div.boxes IMG{
+    width: 101%;
+    height: 101%;
+}
+
+div#uvod{
+    position:absolute;
+    font-size:22pt;
+    border:1px solid black;
+    top:20px;
+    left:50%;
+    width:1000px;
+    margin-left:-500px;
+}
+
+.blocPipe{
+    width: 101%;
+    height: 101%;
+    position: absolute;
+    left: 0;
+    background-color: rgb(255,255,255);
+    -webkit-mask-size: 100%;
+}
+
+.mask1{
+    -webkit-mask-image: url('../obr/blok1.png');
+}
+.mask2{
+    -webkit-mask-image: url('../obr/blok2.png');
+}
+.mask3{
+    -webkit-mask-image: url('../obr/blok3.png');
+}
+.mask4{
+    -webkit-mask-image: url('../obr/blok4.png');
+}
+.mask5{
+    -webkit-mask-image: url('../obr/blok5.png');
+}
