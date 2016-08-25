@@ -1,2 +1,2 @@
 # Hydro
-Connect pipes into ane big conduit
+Connect pipes into one big conduit
